@@ -1,4 +1,5 @@
 ﻿using System;
+using Query.Models;
 
 namespace DotNetCoreSkeleton
 {
@@ -7,6 +8,11 @@ namespace DotNetCoreSkeleton
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            // Instantiate Contact
+            var contact = new Contact();
+
+            Console.WriteLine(contact);
         }
     }
 }

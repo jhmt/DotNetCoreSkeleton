@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSkeleton", "DotNetCoreSkeleton\DotNetCoreSkeleton.csproj", "{7DC8D091-652C-4237-9DBF-0F6028C9EB0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreSkeleton", "DotNetCoreSkeleton\DotNetCoreSkeleton.csproj", "{7DC8D091-652C-4237-9DBF-0F6028C9EB0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{814C5B46-6C21-4DA8-9611-024603CC653C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query.Models", "Query.Models\Query.Models.csproj", "{05F1F0D9-49D4-4181-B425-C94690A2B4E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{7DC8D091-652C-4237-9DBF-0F6028C9EB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC8D091-652C-4237-9DBF-0F6028C9EB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC8D091-652C-4237-9DBF-0F6028C9EB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05F1F0D9-49D4-4181-B425-C94690A2B4E6} = {814C5B46-6C21-4DA8-9611-024603CC653C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3839D521-F893-472A-9FF4-815BD53138ED}
