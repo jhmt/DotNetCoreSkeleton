@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{814C5B46
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query.Models", "Query.Models\Query.Models.csproj", "{05F1F0D9-49D4-4181-B425-C94690A2B4E6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0400C39A-7ADD-4EF8-B1DD-D45886045194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSkeleton.Tests", "DotNetCoreSkeleton.Tests\DotNetCoreSkeleton.Tests.csproj", "{70A310EA-7B03-4B1F-B13D-337973C127BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05F1F0D9-49D4-4181-B425-C94690A2B4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A310EA-7B03-4B1F-B13D-337973C127BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A310EA-7B03-4B1F-B13D-337973C127BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A310EA-7B03-4B1F-B13D-337973C127BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A310EA-7B03-4B1F-B13D-337973C127BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{05F1F0D9-49D4-4181-B425-C94690A2B4E6} = {814C5B46-6C21-4DA8-9611-024603CC653C}
+		{70A310EA-7B03-4B1F-B13D-337973C127BB} = {0400C39A-7ADD-4EF8-B1DD-D45886045194}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3839D521-F893-472A-9FF4-815BD53138ED}

@@ -9,8 +9,8 @@ namespace DotNetCoreSkeleton
         {
             Console.WriteLine("Hello World!");
 
-            // Instantiate Contact
-            var contact = new Contact();
+            var classToTest = new ClassToTest();
+            var contact = classToTest.MethodToTest(Guid.NewGuid());
 
             Console.WriteLine(contact);
         }
