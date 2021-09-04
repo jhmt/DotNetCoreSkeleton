@@ -17,11 +17,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <DotNetCliToolReference Include="JetBrains.dotCover.CommandLineTools" Version="2019.1.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DotNetCoreSkeleton\DotNetCoreSkeleton.csproj" />
-    <DotNetCliToolReference Include="JetBrains.dotCover.CommandLineTools" Version="2021.2.0-eap09" />
   </ItemGroup>
 
 </Project>
