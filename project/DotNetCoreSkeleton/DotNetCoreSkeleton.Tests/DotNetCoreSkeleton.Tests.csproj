@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotNetCoreSkeleton\DotNetCoreSkeleton.csproj" />
+    <DotNetCliToolReference Include="JetBrains.dotCover.CommandLineTools" Version="2021.2.0-eap09" />
   </ItemGroup>
 
 </Project>
